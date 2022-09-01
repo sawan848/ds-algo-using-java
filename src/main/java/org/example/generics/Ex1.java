@@ -12,6 +12,10 @@ public class Ex1<T>{
     }
     public static void main(String []args){
         Scanner scanner=new Scanner(System.in);
+        String a="a";
+        String  b="b";
+        a.compareTo(b);
+
 
         Ex1 ex1=new Ex1();
         ex1.genericsPrint(12);

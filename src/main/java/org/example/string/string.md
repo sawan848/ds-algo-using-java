@@ -1,5 +1,12 @@
 # String
-
+```mermaid
+classDiagram
+Serializable <|-- String : implements 
+Comparable~String~<|-- String : implements 
+Constable<|-- String : implements 
+ConstantDesc<|-- String : implements 
+CharSequence<|-- String : implements 
+```
 <style>
     b{
         color:yellow;
@@ -16,10 +23,16 @@
     }
 </style>
 
+## Constructor
+| Name                         | Description                                                              |
+|------------------------------|--------------------------------------------------------------------------|
+ | <b> String(String s)</b>     | |                                                                         | Create a string with the same name                                       | <e>String s=new String("Hello")</e>                                                                                                                                                                          |
+ | <b> String(char []str)  </b> | Create a string that represents with <br/>the same sequence of character | <e>char []str={'H','e','l','l','o'} <br> String s=new String(str) </e>                                                                                                                                       |
+
+
+## Method
 | Return Type         | Name                                         | Description                                                              | Example                                                                                                                                                                                                      |
 |---------------------|----------------------------------------------|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| --                  | <b> String(String s)</b>                     | Create a string with the same name                                       | <e>String s=new String("Hello")</e>                                                                                                                                                                          |
-| --                  | <b> String(char []str)  </b>                 | Create a string that represents with <br/>the same sequence of character | <e>char []str={'H','e','l','l','o'} <br> String s=new String(str) </e>                                                                                                                                       |
 | <i>int</i>          | <b>length()</b>                              | no of characters                                                         | <e>int length=s.length()</e>                                                                                                                                                                                 | 
 | <i>int</i>          | <b>indexOf(String pattern)</b>               | index of occurrence of pattern                                           | <e>String str="Good morning"; str.indexOf("m")</e><br/><o>output: 5</o>                                                                                                                                      | 
 | <i>int</i>          | <b>indexOf(String pattern,int fromIndex)</b> | index of occurrence pattern  after index                                 | <e>String str="Hello Planet";<br/> str.indexOf("e",5)</e><br/><o>Output:10</o>                                                                                                                               | 
@@ -51,3 +64,5 @@
     than the specified object 
 
 [example of comapre to](Q1.java)
+
+

@@ -51,19 +51,47 @@ AbstractStringBuilder-- o StringBuilder : extends
 | String        | substring(int start)                                         |||
 | String        | substring(int start,int end)                                 |||
 | String        | substring(int start,int end)                                 |||
+| StringBuilder | <a href="#append">append(String str)          </a>           |||
+| StringBuilder | <a href="#insert"> insert(int index, char[] str, int offset,int len)       </a>     |||
+| StringBuilder | reverse()                                                    |||
+| StringBuilder | replace(int start, int end, String str)                      |||
+| StringBuilder | deleteCharAt(int index)                                      |||
+| StringBuilder | delete(int start, int end)                                   |||
+| StringBuilder | appendCodePoint(int codePoint)                               |||
 | StringBuilder | append(String obj)                                           |||
-| StringBuilder | append(String str)                                           |||
-| StringBuilder | append(StringBuffer sb)                                      |||
-| StringBuilder | append(CharSequence s)                                       |||
-| StringBuilder | append(CharSequence s, int start, int end)                   |||
-| StringBuilder | append(char[] str, int offset, int len)                      |||
-| StringBuilder | append(boolean b)                                            |||
-| StringBuilder | append(char c)                                               |||
-| StringBuilder | append(int i)                                                |||
-| StringBuilder | append(long lng)                                             |||
-| StringBuilder | append(float f)                                              |||
-| StringBuilder | append(double d)                                             |||
-| StringBuilder | insert(int index, char[] str, int offset,int len)            |||
+| Void          | getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin) |||
+| Void | setCharAt(int index,char ch)                                 |||
+|Void| trimToSize()                                                 |||
+|IntStream| chars()                                                      |||
+
+<hr>
+
+# append
+
+| Return Type   | Name                                              | Description | Example |
+|---------------|---------------------------------------------------|-------------|---------|
+| StringBuilder | append(String obj)                                |||
+| StringBuilder | append(String str)                                |||
+| StringBuilder | append(StringBuffer sb)                           |||
+| StringBuilder | append(CharSequence s)                            |||
+| StringBuilder | append(CharSequence s, int start, int end)        |||
+| StringBuilder | append(char[] str, int offset, int len)           |||
+| StringBuilder | append(boolean b)                                 |||
+| StringBuilder | append(char c)                                    |||
+| StringBuilder | append(int i)                                     |||
+| StringBuilder | append(long lng)                                  |||
+| StringBuilder | append(float f)                                   |||
+| StringBuilder | append(double d)                                  |||
+| StringBuilder | insert(int index, char[] str, int offset,int len) |||
+| StringBuilder | insert( int offset,Object obj)                    |||
+
+
+# insert
+
+
+|Return Type|Name|Description|Example|
+|-----|----|-----|----|
+| StringBuilder |  insert(int index, char[] str, int offset,int len)      |||
 | StringBuilder | insert( int offset,Object obj)                               |||
 | StringBuilder | insert( int offset,String str)                               |||
 | StringBuilder | insert(int offset,char []str)                                |||
@@ -75,17 +103,3 @@ AbstractStringBuilder-- o StringBuilder : extends
 | StringBuilder | insert(int offset, long l)                                   |||
 | StringBuilder | insert(int offset, float f)                                  |||
 | StringBuilder | insert(int offset, double d)                                 |||
-| StringBuilder | reverse()                                                    |||
-| StringBuilder | replace(int start, int end, String str)                      |||
-| StringBuilder | deleteCharAt(int index)                                      |||
-| StringBuilder | delete(int start, int end)                                   |||
-| StringBuilder | appendCodePoint(int codePoint)                               |||
-| StringBuilder | append(String obj)                                           |||
-| Void          | getChars(int srcBegin, int srcEnd, char[] dst, int dstBegin) |||
-| Void | setCharAt(int index,char ch)                                 |||
-|Void| trimToSize()                                                 |||
-|IntStream|  chars()                                                     |||
-
-<hr>
-
-

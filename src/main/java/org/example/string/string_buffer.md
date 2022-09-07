@@ -48,27 +48,27 @@ AbstractStringBuilder<|-- StringBuffer : extends
 
 ## Methods
 
-| Return type  | Name                                                               | Description                                                             | Example |
-|--------------|--------------------------------------------------------------------|-------------------------------------------------------------------------|---------|
-| int          | length()                                                           | The append method always adds these characters at the end of the buffer |         |
-| int          | capacity()                                                         | The append method always adds these characters at the end of the buffer |         |
-| int          | indexOf(String str)                                                | The append method always adds these characters at the end of the buffer |         |
-| int          | lastIndexOf(String str)                                            | The append method always adds these characters at the end of the buffer |         |
-| int          | indexOf(String str, int fromIndex)                                 | The append method always adds these characters at the end of the buffer |         |
-| int          | lastIndexOf(String str, int fromIndex)                             | The append method always adds these characters at the end of the buffer |         |
-| int          | compareTo(StringBuffer another)                                    | The append method always adds these characters at the end of the buffer |         |
-| int          | codePointAt(int index)                                             | The append method always adds these characters at the end of the buffer |         |
-| int          | codePointBefore(int index)                                         | The append method always adds these characters at the end of the buffer |         |
-| int          | codePointCount(int beginIndex, int endIndex)                       | The append method always adds these characters at the end of the buffer |         |
-| int          | offsetByCodePoints(int index, int codePointOffset)                 | The append method always adds these characters at the end of the buffer |         |
-| char         | charAt(int index)                                                  | The append method always adds these characters at the end of the buffer |         |
-| String       | substring(int start)                                               | The append method always adds these characters at the end of the buffer |         |
-| String       | substring(int start, int end)                                      | The append method always adds these characters at the end of the buffer |         |
-| StringBuffer | <a href="#append"> append(Object obj</a>                           | The append method always adds these characters at the end of the buffer |         |
-| StringBuffer | <a href="index"> insert(int index, char[] str, int offset,int len) | The append method always adds these characters at the end of the buffer |         |
-| StringBuffer | replace(int start, int end, String str)                            | The append method always adds these characters at the end of the buffer |         |
-| StringBuffer | reverse()                                                          | The append method always adds these characters at the end of the buffer |         |
-| StringBuffer | getBytes(byte[] dst, int dstBegin, byte coder)                     | The append method always adds these characters at the end of the buffer |         |
+| Return type                       | Name                                                                | Description                                                             | Example |
+|-----------------------------------|---------------------------------------------------------------------|-------------------------------------------------------------------------|---------|
+| int                               | length()                                                            | The append method always adds these characters at the end of the buffer |         |
+| int                               | capacity()                                                          | The append method always adds these characters at the end of the buffer |         |
+| int                               | indexOf(String str)                                                 | The append method always adds these characters at the end of the buffer |         |
+| int                               | lastIndexOf(String str)                                             | The append method always adds these characters at the end of the buffer |         |
+| int                               | indexOf(String str, int fromIndex)                                  | The append method always adds these characters at the end of the buffer |         |
+| int                               | lastIndexOf(String str, int fromIndex)                              | The append method always adds these characters at the end of the buffer |         |
+| int                               | compareTo(StringBuffer another)                                     | The append method always adds these characters at the end of the buffer |         |
+| int                               | codePointAt(int index)                                              | The append method always adds these characters at the end of the buffer |         |
+| int                               | codePointBefore(int index)                                          | The append method always adds these characters at the end of the buffer |         |
+| int                               | codePointCount(int beginIndex, int endIndex)                        | The append method always adds these characters at the end of the buffer |         |
+| int                               | offsetByCodePoints(int index, int codePointOffset)                  | The append method always adds these characters at the end of the buffer |         |
+| char                              | charAt(int index)                                                   | The append method always adds these characters at the end of the buffer |         |
+| String                            | substring(int start)                                                | The append method always adds these characters at the end of the buffer |         |
+| String                            | substring(int start, int end)                                       | The append method always adds these characters at the end of the buffer |         |
+| <a href="#append">StringBuffer</a> | <a href="#append"> append(Object obj)</a>                           | The append method always adds these characters at the end of the buffer |         |
+| StringBuffer   | <a href="#index"> insert(int index, char[] str, int offset,int len) | The append method always adds these characters at the end of the buffer |         |
+| StringBuffer                      | replace(int start, int end, String str)                             | The append method always adds these characters at the end of the buffer |         |
+| StringBuffer                      | reverse()                                                           | The append method always adds these characters at the end of the buffer |         |
+| StringBuffer                      | getBytes(byte[] dst, int dstBegin, byte coder)                      | The append method always adds these characters at the end of the buffer |         |
 
 
 
@@ -115,3 +115,5 @@ AbstractStringBuilder<|-- StringBuffer : extends
 
 
 
+# man
+wweeee

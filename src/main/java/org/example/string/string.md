@@ -7,21 +7,8 @@ Constable<|-- String : implements
 ConstantDesc<|-- String : implements 
 CharSequence<|-- String : implements 
 ```
-<style>
-    b{
-        color:yellow;
-    }
-    i{
-        color:pink;
-        font-weight:bold
-    }
-    e{
-        color:#00e600
-    }
-    o{
-        color:red;
-    }
-</style>
+
+
 
 ## Constructor
 | Name                         | Description                                                              |

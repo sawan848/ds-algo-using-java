@@ -1,7 +1,8 @@
 
 * * [Arrays]((src/main/java/org/example/arrays/arrays.md))
 * * [ArrayList](arraylist.md)
-* * [Stack](stack)
+* * [LinkedList](linkedlist.md)
+* * [Stack](stack.md)
 * * [HashMap](hashmap.md)
 * * [Colections-class](Collection.md)
 

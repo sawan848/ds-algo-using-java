@@ -9,8 +9,8 @@ import java.util.*;
 
 public class Q1 {
     public static void main(String[] args) {
-        List<?>list=new ArrayList<>();
-        Map<?,?>map=new HashMap<>();
+        Stack<?>stack=new Stack<>();
+
 
 
     }

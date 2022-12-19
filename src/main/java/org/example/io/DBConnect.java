@@ -64,7 +64,7 @@ public class DBConnect {
      * @param password
      */
     public static void connectOracleXE(String username,String password) throws ClassNotFoundException, SQLException {
-        Class.forName("oracle.jdbc.driver.OracleDriver");
+//        Class.forName("oracle.jdbc.driver.OracleDriver");
         String url="jdbc:oracle:thin:@localhost:1521:XE";
         Connection connection=DriverManager.getConnection(url,username,password);
         String query="select * from tab";
